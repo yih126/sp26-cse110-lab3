@@ -1,0 +1,29 @@
+# Standup Notes
+
+## Meeting Info
+- Date:
+- Time:
+- Location / Platform:
+
+## Team Members
+- Member 1:
+- Member 2:
+- Member 3:
+
+## Updates
+### What I did
+- 
+
+### What I will do next
+- 
+
+### Blockers
+- 
+
+## Discussion Points
+- Topic 1:
+- Topic 2:
+
+## Action Items
+- [ ] Task 1
+- [ ] Task 2
