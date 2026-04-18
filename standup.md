@@ -4,6 +4,7 @@
 - Date:
 - Time:
 - Location / Platform:
+- Participants:
 
 ## Team Members
 - Member 1:
