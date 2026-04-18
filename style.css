@@ -1,0 +1,20 @@
+/* Lab 3 CSS */
+
+body {
+  background-color: #f5f7fb;
+  color: rgb(40, 40, 40);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: hsl(220, 70%, 35%);
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #d0d7de;
+  border-radius: 10px;
+}
