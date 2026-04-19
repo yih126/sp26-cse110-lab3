@@ -8,9 +8,9 @@
 
 /* ===== General Styling ===== */
 body {
-  background-color: #f5f7fb;                 /* hex */
-  color: rgb(40, 40, 40);                  /* rgb */
-  font-family: Arial, sans-serif;
+  background-color: #f5f7fb;
+  color: rgb(40, 40, 40);
+  font-family: 'Poppins', Arial, sans-serif;
 }
 
 /* ===== Headings ===== */
@@ -162,5 +162,67 @@ section:has(img) {
 
   nav a {
     display: block;
+  }
+}
+
+/* ===== Extra rubric coverage ===== */
+
+/* hsl / hsla / rgba */
+h2 {
+  color: hsl(210, 60%, 35%);
+}
+
+footer {
+  background-color: hsla(210, 50%, 90%, 0.8);
+}
+
+button {
+  background-color: rgba(100, 149, 237, 0.8);
+}
+
+/* wider-gamut color() */
+summary {
+  color: color(display-p3 0.2 0.4 0.8);
+}
+
+/* border shorthand + height + min-width */
+img {
+  border: 3px solid #999;
+  height: auto;
+  min-width: 150px;
+}
+
+/* margin: auto */
+main {
+  margin: auto;
+  width: 90%;
+}
+
+/* extra absolute units */
+video {
+  border-width: 2pt;
+}
+
+audio {
+  margin-left: 1cm;
+}
+
+/* extra relative unit */
+header {
+  min-width: 50%;
+}
+
+/* safer flexbox container with >2 children */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* nested selector */
+#media {
+  & h3 {
+    text-decoration: underline;
   }
 }
