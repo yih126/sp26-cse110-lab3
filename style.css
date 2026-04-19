@@ -221,8 +221,6 @@ nav {
 }
 
 /* nested selector */
-#media {
-  & h3 {
-    text-decoration: underline;
-  }
+#media h3 {
+  text-decoration: underline;
 }
