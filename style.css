@@ -182,7 +182,7 @@ button {
 
 /* wider-gamut color() */
 summary {
-  color: color(display-p3 0.2 0.4 0.8);
+color: #3366cc;
 }
 
 /* border shorthand + height + min-width */
